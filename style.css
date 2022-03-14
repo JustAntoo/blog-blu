@@ -1,0 +1,103 @@
+/* Root progetto */
+:root{
+    --primario: #1566C0;
+    --secondario: white;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    color: black !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Righteous', cursive;
+    color: var(--primario) !important;
+}
+
+/* navbar */
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.navbarcustom{
+    background-color: white !important;
+}
+.linknavbar{
+    color: black !important;
+}
+.linknavbar:hover{
+    color: var(--primario) !important;
+}
+
+/* header */
+.immagineheader{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),url(./media/header.jpg);
+    background-size: : cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.bottoneheader{
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.paragrafoheader{
+    margin-left: 46px;
+}
+.titoloheader{
+    margin-left: 45px;
+    margin-top: 100px;
+    font-size: 70px;
+}
+.immagine2{
+    background: url(./media/wave1.svg);
+    background-repeat: no-repeat;
+    height: 1220px;
+    width: 1519px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+.immagine3{
+    width: 1520px;
+    height: 420px;
+    padding: 0px;
+}
+
+/* testo con card */
+.titolocard{
+    color: white;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 40px;
+}
+.paragrafogrigio{
+    color: grey;
+}
+.immaginecard{
+    background-image: linear-gradient(to right rgba(0,0,0,0.8), to left rgba(0,0,0,0.2));
+}
+.pippo{
+    color: red;
+}
+.iconecard{
+    color: var(--secondario) !important;
+}
+.testocard{
+    filter: blur(3px);
+}
+
+/* about */
+.section1card{
+    border: none;
+}
+/* footer */
+.colorefooter{
+color: var(--primario);
+}
+.sectioncustom{
+    border: 10px solid var(--primario);
+    border-radius: 20px;
+}
+.linkfooter{
+    margin-top: 40px !important;
+}
